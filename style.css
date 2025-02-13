@@ -1,0 +1,28 @@
+/* Write your code here: */
+
+/* h1 i h2 trebaju biti color:bluvoilet  na način da se blueviolet jednom definira  */
+h1,h2 {
+     color: blueviolet;
+}
+
+/* Do these things today!    color:firebrick preko child selectora; */
+.box > .done {
+    color: firebrick;
+}
+
+/* sve list item preko descendent selector color: blue*/
+ul,li{
+    color: blue;
+}
+
+/* zadnje dvije list item preko chainig matode color: seagreen; */
+ul li:nth-last-child(2)
+ul li:nth-last-child(1){
+    color: seagreen;
+}
+
+/* other item postaviti font-size:0.5rem preko kombinacije kombinatora multiole combiner*/
+.some-class
+ .another-class .other-item {
+    font size: 0.5em ;
+ }
